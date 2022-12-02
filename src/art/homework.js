@@ -67,17 +67,18 @@ function windowshouseanddoor(ctx){
 }
 
 function draw(ctx, t) {
+    //draws everything togther 
     //See https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
 
     //❓❓ Question 5
     //❓❓ Question 6
-windowshouseanddoor(ctx);
-    
 
+    
+    windowshouseanddoor(ctx);
     sun(ctx,t);
     moon(ctx,t);
 
 
 }
 
-export default { name: "My Homework", shade, draw }
+export default { name: "Sun and Moon going around a house", shade, draw }
